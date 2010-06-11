@@ -6,11 +6,11 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "ms_lorem"
     gem.summary = %Q{Generates a Lorem Ipsum string.}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{Creates a new class, Lorem, which is a sub class of String. Lorem.new(word_count) returns a Lorem string of specified length. The only parameter is the number of words to include in the returned string and defaults to twenty words.}
     gem.email = "will@morelandsolutions.com"
     gem.homepage = "http://github.com/wmerrell/ms_lorem"
-    gem.authors = ["wmerrell"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.authors = ["Will Merrell"]
+    #gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
