@@ -24,6 +24,8 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/ms_lorem.rb",
+     "ms_lorem.gemspec",
+     "ms_lorem.kpf",
      "test/helper.rb",
      "test/test_ms_lorem.rb"
   ]
