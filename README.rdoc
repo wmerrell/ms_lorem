@@ -1,9 +1,25 @@
 = ms_lorem
 
-Description goes here.
+This gem creates a new subclass of String which will generate a random Lorem Ipsum string of any length.
+
+== Installation:
+
+ $> gem install ms_lorem
+
+== Usage:
+
+Simply invoke a new instance as follows:
+
+  @lorem_str = Lorem.new
+
+This will create a random string of 20 words. New takes one parameter, the number of words to generate. So,
+
+  @lorem_str = Lorem.new(50)
+
+will create a string with 50 words in it.
 
 == Note on Patches/Pull Requests
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
@@ -14,4 +30,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 wmerrell. See LICENSE for details.
+Copyright (c) 2010 Will Merrell. See LICENSE for details.
